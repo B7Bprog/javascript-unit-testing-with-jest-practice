@@ -1,0 +1,23 @@
+{
+  "name": "javascript-unit-testing-with-jest-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumOfNum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B7Bprog/javascript-unit-testing-with-jest-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B7Bprog/javascript-unit-testing-with-jest-practice/issues"
+  },
+  "homepage": "https://github.com/B7Bprog/javascript-unit-testing-with-jest-practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
