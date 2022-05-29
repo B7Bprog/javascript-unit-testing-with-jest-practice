@@ -9,7 +9,7 @@ describe ('sumOfNum', () => {
             const expected = 9;
             //Actual
             const actual = sumOfNum(firstDigit, secondDigit);
-            //Expect
+            //Assert
             expect(actual).toBe(expected);
     })
 })
