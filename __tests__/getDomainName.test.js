@@ -28,4 +28,13 @@ describe('getDomainName', () => {
         //Assert
         expect(actual).toBe(expected);
     });
+    test('Test if we get the right domain out of another url with digits ', () =>{
+        //Arrange
+        const url = 'https://you32tube.com';
+        const expected = 'you32tube';
+        //Act
+        const actual = getDomainName(url);
+        //Assert
+        expect(actual).toBe(expected);
+    });
 });
