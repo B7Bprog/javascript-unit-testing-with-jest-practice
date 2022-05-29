@@ -8,4 +8,4 @@ describe("drinkEach", () => {
         drinkEach(drink, ['lemon', 'octopus']);
         expect(drink).toHaveBeenCalledTimes(2);
       });
-})
+});
