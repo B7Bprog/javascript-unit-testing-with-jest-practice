@@ -37,4 +37,13 @@ describe('getDomainName', () => {
         //Assert
         expect(actual).toBe(expected);
     });
+    test('Test if we get the right domain out of another url with only digits ', () =>{
+        //Arrange
+        const url = 'https://123.com';
+        const expected = '123';
+        //Act
+        const actual = getDomainName(url);
+        //Assert
+        expect(actual).toBe(expected);
+    });
 });
